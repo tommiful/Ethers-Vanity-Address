@@ -13,7 +13,6 @@ const findMultipleAddresses = async () => {
       console.log(randomWallet.address);
       console.log(randomWallet._mnemonic().phrase);
       console.log(randomWallet._signingKey().privateKey);
-      console.log('-------------------------------');
     }
   });
 }
@@ -24,7 +23,6 @@ const findSingleAddress = async () => {
     console.log(`# ${randomWallet.address}`);
     console.log(randomWallet._mnemonic().phrase);
     console.log(randomWallet._signingKey().privateKey);
-    console.log('-------------------------------');
   }
 }
 
